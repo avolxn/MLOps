@@ -15,7 +15,7 @@ cd MLOps
 python -m venv venv
 source venv/bin/activate  # Для Linux/macOS
 venv\Scripts\activate    # Для Windows
-pip install -e .[dev]
+pip install -e ".[dev]"
 ```
 
 ## Настройка pre-commit
